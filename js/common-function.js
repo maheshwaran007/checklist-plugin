@@ -12,7 +12,6 @@ function checkboxevent(checkboxid,ajax_url,page_id){
 	'checkboxvalue':checkboxvalue,
 	'page_id':page_id
 	}		  
-	jQuery.post(ajax_url, ajaxData, function(response){	
-	  //alert(response);
+	jQuery.post(ajax_url, ajaxData, function(response){		 
 	});		  	
 }		
